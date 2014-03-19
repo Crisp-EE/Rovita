@@ -1,0 +1,32 @@
+html{
+	height:100%;
+	body{
+		height:100%;
+		margin:0px;
+		padding:0px;
+
+		.group:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+
+		}
+		.wrapper{
+			width:100%;
+			min-height:100%;
+			padding-bottom:200px;
+		}
+		footer{
+			height:200px;
+			margin-top:-200px;
+		}
+	}
+}
+
+
+/*
+ehk lää-heb vaja
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+ */
