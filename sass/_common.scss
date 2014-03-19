@@ -4,7 +4,7 @@ html{
 		height:100%;
 		margin:0px;
 		padding:0px;
-
+		font-family: 'source_sans_proregular';
 		.group:after {
 		  content: "";
 		  display: table;
@@ -14,11 +14,6 @@ html{
 		.wrapper{
 			width:100%;
 			min-height:100%;
-			padding-bottom:200px;
-		}
-		footer{
-			height:200px;
-			margin-top:-200px;
 		}
 	}
 }
