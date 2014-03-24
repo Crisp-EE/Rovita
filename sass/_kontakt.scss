@@ -1,0 +1,104 @@
+
+.contactbox{
+	width: 45%;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	float:left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	&:nth-of-type(odd){
+		border-right: 1px solid $tumehall;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		padding-right: 20px;
+	}
+	header.contact{
+		width: 50%;
+		float:left;
+		h1{
+			margin: 0;
+			padding: 0;
+			font-size: 1.5em;
+			font-weight: normal;
+			font-family: 'source_sans_prosemibold';
+		}
+		h2{
+			font-size: 1em;
+			font-weight: normal;
+			line-height: 2;
+		}
+	}//header.contact
+	.info{
+		float:right;
+		width: 50%;
+		span{
+			width: 100%;
+			div{
+				font-size: 0.8em;
+				font-family: 'source_sans_prosemibold';
+				height: 30px;
+				line-height: 30px;
+			}
+			.tag{
+				float:left;
+			}
+			.data{
+				float:right;
+			}
+
+		}
+	}//info
+}//contactbox
+
+form.contactform{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	input, textarea{
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		padding: 0;
+		margin: 0;
+		border: 1px solid $hall;
+		background: transparent;
+		margin-bottom: 10px;
+		font-size: 0.8em;
+		&:focus{
+			border-color: $tumedamhall;
+		}
+	}
+	input.box{
+		outline:none;
+		height: 30px;
+		padding-left: 5px;
+		padding-right: 5px;
+		line-height: 30px;
+	}
+	input.tel, input.name{
+		width: 49%;
+		float:left;
+	}
+	input.tel{
+		margin-right: 2%;
+	}
+	input.email{
+		width: 100%;
+	}
+	textarea#content{
+		width: 100%;
+		max-height: 200px;
+		height: 120px;
+		width: 100%;
+		max-width: 100%;
+		outline:none;
+		padding: 5px;
+	}
+	input.button{
+		float:right;
+		width: 80px;
+		height: 30px;
+	}
+}//contactform

@@ -434,6 +434,7 @@ section.main header.block {
   height: 0.75em;
   border-bottom: 1px solid #adadad;
   clear: both;
+  margin-bottom: 20px;
 }
 section.main header.block h1 {
   font-family: 'source_sans_prosemibold';
@@ -485,7 +486,9 @@ section.main section.logos .logoscontainer {
 section.main section.logos a {
   height: 70px;
   display: inline-block;
-  margin: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
   opacity: 0.7;
   -webkit-transition: all 200ms ease-in;
   -moz-transition: all 200ms ease-in;
@@ -510,7 +513,7 @@ section.main section.special .specialcontainer a.offer {
   display: inline-block;
   text-decoration: none;
   opacity: 0.8;
-  margin-top: 25px;
+  margin-top: 10px;
   outline: none;
   -webkit-transition: all 200ms ease-in;
   -moz-transition: all 200ms ease-in;
@@ -794,4 +797,106 @@ section.categories .category h1 {
   padding: 0;
   color: #363636;
   font-family: 'source_sans_probold';
+}
+
+.contactbox {
+  width: 45%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.contactbox:nth-of-type(odd) {
+  border-right: 1px solid #9b9b9b;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+.contactbox header.contact {
+  width: 50%;
+  float: left;
+}
+.contactbox header.contact h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: normal;
+  font-family: 'source_sans_prosemibold';
+}
+.contactbox header.contact h2 {
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 2;
+}
+.contactbox .info {
+  float: right;
+  width: 50%;
+}
+.contactbox .info span {
+  width: 100%;
+}
+.contactbox .info span div {
+  font-size: 0.8em;
+  font-family: 'source_sans_prosemibold';
+  height: 30px;
+  line-height: 30px;
+}
+.contactbox .info span .tag {
+  float: left;
+}
+.contactbox .info span .data {
+  float: right;
+}
+
+form.contactform {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+form.contactform input, form.contactform textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #adadad;
+  background: transparent;
+  margin-bottom: 10px;
+  font-size: 0.8em;
+}
+form.contactform input:focus, form.contactform textarea:focus {
+  border-color: #363636;
+}
+form.contactform input.box {
+  outline: none;
+  height: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  line-height: 30px;
+}
+form.contactform input.tel, form.contactform input.name {
+  width: 49%;
+  float: left;
+}
+form.contactform input.tel {
+  margin-right: 2%;
+}
+form.contactform input.email {
+  width: 100%;
+}
+form.contactform textarea#content {
+  width: 100%;
+  max-height: 200px;
+  height: 120px;
+  width: 100%;
+  max-width: 100%;
+  outline: none;
+  padding: 5px;
+}
+form.contactform input.button {
+  float: right;
+  width: 80px;
+  height: 30px;
 }
