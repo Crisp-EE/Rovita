@@ -3,37 +3,7 @@ section.categories{
 	header.block{
 		margin-bottom: 20px;
 	}
-	.otsi{
-		
-		input{
-			float:right;
-			outline:none;
-			border: 1px solid $tumehall;
-			font-size: 0.8em;
-			line-height: 25px;
-			height: 25px;
-			padding: 0;
-			margin: 0;
-			-webkit-box-sizing: border-box;
-			-moz-box-sizing: border-box;
-			box-sizing: border-box;
-			display: block;
-		}
-		input.box{
-			width: 130px;
-			outline: none;
-			padding-left: 5px;
-			padding-right: 5px;
-
-		}
-		input.button{
-			background: transparent;
-			border-left: none;
-			padding-right: 5px;
-			padding-left: 5px;
-		}
-		
-	}
+	
 	.category{
 		height: 180px;
 		width: 24%;

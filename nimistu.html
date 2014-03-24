@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title></title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/min/jscript.min.js"></script>
+<script src="js/min/jquery-ui.min.js"></script>
+<!-- jquery carousel -->
+<script src="/js/min/carousel.min.js"></script>
+<script src="/js/helper-plugins/jquery.touchSwipe.min.js"></script>
+
+</head>
+<body>
+<div class="wrapper group">
+	<header class="main page group">
+		<div class="headercontainer group">
+			<nav class="lang">
+				<ul>
+					<li><a href="">Est</a></li>
+					<li><a href="">Eng</a></li>
+					<li><a href="">Lv</a></li>
+				</ul>
+			</nav><!-- language choose -->
+			<a href="#homepage" class="logo"></a><!-- logo -->
+			<p class="slogan">Pagari- ja kondiitriseadmed</p><!-- slogan -->
+			<nav class="main">
+				<ul>
+					<li class="active"><a href="">Avaleht</a></li>
+					<li><a href="">Seadmed</a></li>
+					<li><a href="">Referentsid</a></li>
+					<li><a href="">Kontakt</a></li>
+				</ul>
+			</nav><!-- main navigation -->
+		</div><!-- header container  -->
+
+	</header><!-- main header -->
+
+	<section class="main group">
+		<section class="group">
+			<div class="otsi">
+				<input class="button" type="submit">
+				<input class="box" type="text" placeholder="Otsi">
+			</div><!-- otsing -->
+			
+			<header class="block"><h1>Seadmed</h1></header>
+			
+
+			<aside class="filter">
+				<h2>Pakkumised</h2>
+				<ul>
+					<li>
+						<!-- labeli id peab vastama checkboxi id'le ning id ei tohi korduda -->
+						<input type="checkbox" id="eri">  
+						<label for="eri">Eripakkumised</label>
+					</li>
+				</ul>
+
+				<h2>Kategooria</h2>
+				<ul>
+					<li>
+						<input type="checkbox" id="kat1">
+						<label for="kat1">Kategooria</label>
+					</li>
+					<li>
+						<input type="checkbox" id="kat2">
+						<label for="kat2">Kategooria</label>
+					</li>
+					<li>
+						<input type="checkbox" id="kat3">
+						<label for="kat3">Kategooria</label>
+					</li>
+					<li>
+						<input type="checkbox" id="kat4">
+						<label for="kat4">Kategooria</label>
+					</li>
+				</ul>
+
+				<h2>Tootja</h2>
+				<ul>
+					<li>
+						<input type="checkbox" id="toot1">
+						<label for="toot1">Tootjafirma</label>
+					</li>
+					<li>
+						<input type="checkbox" id="toot2">
+						<label for="toot2">Tootjafirma</label>
+					</li>
+					<li>
+						<input type="checkbox" id="toot3">
+						<label for="toot3">Tootjafirma</label>
+					</li>
+					<li>
+						<input type="checkbox" id="toot4">
+						<label for="toot4">Tootjafirma</label>
+					</li>
+				</ul>
+
+				<h2>Valmistatud</h2>
+				<ul>
+					<li>
+						<input type="checkbox" id="val1">
+						<label for="val1">Valmistajamaa</label>
+					</li>
+					<li>
+						<input type="checkbox" id="val2">
+						<label for="val2">Valmistajamaa</label>
+					</li>
+					<li>
+						<input type="checkbox" id="val3">
+						<label for="val3">Valmistajamaa</label>
+					</li>
+					<li>
+						<input type="checkbox" id="val4">
+						<label for="val4">Valmistajamaa</label>
+					</li>
+				</ul>
+
+				<h2>Seisukord</h2>
+				<ul>
+					<li>
+						<input type="checkbox" id="renoveeritud">
+						<label for="renoveeritud">Renoveeritud</label>
+					</li>
+					<li>
+						<input type="checkbox" id="kasutatud">
+						<label for="kasutatud">Kasutatud</label>
+					</li>
+					<li>
+						<input type="checkbox" id="uus">
+						<label for="uus">Uus</label>
+					</li>
+
+				</ul>
+
+				<h2>Staatus</h2>
+				<ul>
+					<li>
+						<input type="checkbox" id="Otsas">
+						<label for="Otsas">Otsas</label>
+					</li>
+					<li>
+						<input type="checkbox" id="Tellimisel">
+						<label for="Tellimisel">Tellimisel</label>
+					</li>
+					<li>
+						<input type="checkbox" id="Laos">
+						<label for="Laos">Laos</label>
+					</li>
+				</ul>
+			</aside><!-- filter -->
+			<table class="products">
+			    <tr class="header">
+			        <td class="tableName">sorteeri</td>
+			        <td>Nimetus</td>
+			        <td>Tüüp</td>
+			        <td>Tootja</td>
+			        <td>Valmistatud</td>
+			        <td>Seisukord</td>
+			        <td>Staatus</td>
+			    </tr>
+			    <tr>
+			        <td><a href=""><div class="productImg" style="background-image: url(/img/pildike.jpg);"></div></a></td>
+			        <td><a href="">BELDOS Beltop 275</a></td>
+			        <td>Toote tüüp</td>
+			        <td>Tootjafirma</td>
+			        <td>Valmistajamaa</td>
+			        <td>Kasutatud</td>
+			        <td><div class="red"></div></td>
+			    </tr>
+			    <tr>
+			        <td><a href=""><div class="productImg" style="background-image: url(/img/pildike.jpg);"></div></a></td>
+			        <td><a href="">MACADAMS MACBAKE</a></td>
+			        <td>Toote tüüp</td>
+			        <td>Tootjafirma</td>
+			        <td>Valmistajamaa</td>
+			        <td>Kasutatud</td>
+			        <td><div class="yellow"></div></td>
+			    </tr>
+			    <tr>
+			        <td><a href=""><div class="productImg" style="background-image: url(/img/pildike.jpg);"></div></a></td>
+			        <td><a href="">Toote nimi</a></td>
+			        <td>Toote tüüp</td>
+			        <td>Tootjafirma</td>
+			        <td>Valmistajamaa</td>
+			        <td>Kasutatud</td>
+			        <td><div class="green"></div></td>
+			    </tr>
+			    <tr>
+			        <td><a href=""><div class="productImg" style="background-image: url(/img/pildike.jpg);"></div></a></td>
+			        <td><a href="">Toote nimi</a></td>
+			        <td>Toote tüüp</td>
+			        <td>Tootjafirma</td>
+			        <td>Valmistajamaa</td>
+			        <td>Kasutatud</td>
+			        <td><div class="yellow"></div></td>
+			    </tr>
+			    <tr>
+			        <td><a href=""><div class="productImg" style="background-image: url(/img/pildike.jpg);"></div></a></td>
+			        <td><a href="">Toote nimi</a></td>
+			        <td>Toote tüüp</td>
+			        <td>Tootjafirma</td>
+			        <td>Valmistajamaa</td>
+			        <td>Kasutatud</td>
+			        <td><div class="green"></div></td>
+			    </tr>
+			    <tr>
+			        <td><a href=""><div class="productImg" style="background-image: url(/img/pildike.jpg);"></div></a></td>
+			        <td><a href="">Toote nimi</a></td>
+			        <td>Toote tüüp</td>
+			        <td>Tootjafirma</td>
+			        <td>Valmistajamaa</td>
+			        <td>Kasutatud</td>
+			        <td><div class="red"></div></td>
+			    </tr>
+			    <tr>
+			        <td><a href=""><div class="productImg" style="background-image: url(/img/pildike.jpg);"></div></a></td>
+			        <td><a href="">Toote nimi</a></td>
+			        <td>Toote tüüp</td>
+			        <td>Tootjafirma</td>
+			        <td>Valmistajamaa</td>
+			        <td>Kasutatud</td>
+			        <td><div class="green"></div></td>
+			    </tr>
+			    <tr>
+			        <td><a href=""><div class="productImg" style="background-image: url(/img/pildike.jpg);"></div></a></td>
+			        <td><a href="">Toote nimi</a></td>
+			        <td>Toote tüüp</td>
+			        <td>Tootjafirma</td>
+			        <td>Valmistajamaa</td>
+			        <td>Kasutatud</td>
+			        <td><div class="green"></div></td>
+			    </tr>
+			    <tr>
+			        <td><a href=""><div class="productImg" style="background-image: url(/img/pildike.jpg);"></div></a></td>
+			        <td><a href="">Toote nimi</a></td>
+			        <td>Toote tüüp</td>
+			        <td>Tootjafirma</td>
+			        <td>Valmistajamaa</td>
+			        <td>Kasutatud</td>
+			        <td><div class="green"></div></td>
+			    </tr>
+			</table><!-- seadmete tabel-->
+			<nav class="pages">
+				<ul>
+					<li class="prev"><a href=""></a></li> <!-- eelmine leht -->
+
+					<li><a href="">1</a></li>
+					<li class="active"><a href="">2</a></li>
+					<li><a href="">3</a></li>
+					<li><a href="">4</a></li>
+					<li><a href="">5</a></li>
+
+					<li class="next"><a href=""></a></li> <!-- järgmine leht -->
+				</ul>
+			</nav>
+		</section><!--seadmed-->
+		
+		<footer>
+			<p>OÜ Rovita</p>
+			<p>Ravila 51F 51014 Tartu</p>
+			<p>Bürooo: +372 744 7777</p>
+			<p>Faks: +372 744 7766</p>
+			<p>Mob: +372 505 1882</p>
+			<p>E-post: <a href="mailto:rovita@rovita.ee">rovita@rovita.ee</a></p>
+			<p>E-R: 8.30-17.00</p>
+		</footer><!-- footer -->
+	</section><!--main section -->
+
+</div><!--wrapper-->
+</body>
+</html>

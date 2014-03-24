@@ -1,0 +1,163 @@
+aside.filter{
+	width: 18%;
+	margin-right: 4%;
+	float:left;
+	border-right: solid 1px $tumehall;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-top: 10px;
+	min-height: 100%;
+	padding-bottom: 20px;
+	ul{
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		li{
+			margin: 0;
+			padding: 0;
+		}
+	}
+	h2{
+		&:first-of-type{
+			margin-top: 0px;
+		}
+		color: $tumehall;
+		font-size: 0.8em;
+		font-weight: normal;
+		font-family: 'source_sans_prosemibold';
+		margin-bottom: 3px;
+	}
+	input[type="checkbox"]{
+		display:none;
+	}
+	input[type="checkbox"] + label {
+	    display:inline-block;
+	    cursor: pointer;
+	    line-height: 20px;
+	    -webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		background-repeat: no-repeat;
+		background-position: right center;
+		padding-right: 25px;
+		text-transform: uppercase;
+		font-family: 'source_sans_prosemibold';
+		font-size: 0.9em;
+	}
+	input[type="checkbox"]:checked + label {
+	    background-image: url("../img/tick.png");
+	    color: $tumehall;
+
+	}
+}//aside.filter
+
+table.products{
+	width: 78%;
+	float: right;
+	font-size: 0.9em;
+	margin-top: 10px;
+	tr{
+		height: 100px;
+		&.header{
+			color:$tumehall;
+			text-decoration: underline;
+			border-bottom: solid 1px $tumehall;
+			height: 40px;
+			vertical-align: top;
+			td.tableName{
+				text-transform: uppercase;
+				text-decoration: none !important;
+				font-family: 'source_sans_prosemibold';
+			}
+		}
+		td{
+			&:last-of-type{
+				text-align: center;
+			}
+			a{
+				text-decoration: none;
+				color: $tumedamhall;
+				font-family: 'source_sans_prosemibold';
+			}
+
+		}//td
+	}//tr
+	.productImg{
+		height: 90px;
+		width: 110px;
+		margin-top: 5px;
+		background-position: center center;
+		background-size: cover;
+	}//productImg
+	.green, .yellow, .red{
+		height: 11px;
+		width: 11px;
+		-webkit-border-radius: 11px;
+		-moz-border-radius: 11px;
+		border-radius: 11px;
+		display: inline-block;
+	}
+	.green{
+		background-color: $roheline;
+	}
+	.yellow{
+		background-color: $kollane;
+	}
+	.red{
+		background-color: $punane;
+	}
+}//table.products
+
+nav.pages{
+	width: 100%;
+	clear:both;
+	border-bottom: solid 1px $tumehall;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		li{
+			display: inline-block;
+			margin-left: 2px;
+			margin-right: 2px;
+			&.active{
+				a{
+					color: $tumedamhall;
+				}
+			}
+			&.next, &.prev{
+				background-repeat: no-repeat;
+				background-position: center center;
+			}
+			&.next{
+				background-image: url("../img/arr-right.png");
+			}
+			&.prev{
+				background-image: url("../img/arr-right.png");
+				-moz-transform: rotate(180deg);
+				-webkit-transform: rotate(180deg);
+				-o-transform: rotate(180deg);
+				-ms-transform: rotate(180deg);
+				transform: rotate(180deg);
+			}
+			a{
+				text-decoration: none;
+				display: block;
+				padding: 5px;
+				font-family: 'source_sans_prosemibold';
+				font-size: 0.9em;
+				&:hover{
+					color:$tumedamhall;
+				}
+			}
+		}
+	}
+}
