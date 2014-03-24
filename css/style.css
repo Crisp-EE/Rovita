@@ -591,6 +591,9 @@ header.main {
 header.main.home {
   height: 450px;
 }
+header.main.page {
+  height: 160px;
+}
 header.main .headercontainer {
   width: 75%;
   margin-left: auto;
@@ -721,4 +724,74 @@ footer p {
 }
 footer p:hover {
   color: #363636;
+}
+
+section.categories {
+  margin-bottom: 10px;
+}
+section.categories header.block {
+  margin-bottom: 20px;
+}
+section.categories .otsi input {
+  float: right;
+  outline: none;
+  border: 1px solid #9b9b9b;
+  font-size: 0.8em;
+  line-height: 25px;
+  height: 25px;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+}
+section.categories .otsi input.box {
+  width: 130px;
+  outline: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+section.categories .otsi input.button {
+  background: transparent;
+  border-left: none;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+section.categories .category {
+  height: 180px;
+  width: 24%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  margin-bottom: 1%;
+  float: left;
+  border: solid 1px #9b9b9b;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  opacity: 0.8;
+  background-size: cover;
+  background-position: top center;
+}
+section.categories .category:hover {
+  opacity: 1;
+}
+section.categories .category h1 {
+  background-color: #fff;
+  text-align: center;
+  text-decoration: none;
+  height: 45px;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  font-size: 0.8em;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 45px;
+  margin: 0;
+  padding: 0;
+  color: #363636;
+  font-family: 'source_sans_probold';
 }

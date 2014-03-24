@@ -10,6 +10,9 @@ header.main{
 	&.home{
 		height: 450px;
 	}//header.home
+	&.page{
+		height: 160px;
+	}//header.page
 
 	.headercontainer{
 		width: 75%;
