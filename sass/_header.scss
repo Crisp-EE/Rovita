@@ -6,6 +6,7 @@ header.main{
 	background-position: center center;
 	-webkit-background-size: cover;
 	background-size: cover;
+	margin-bottom: 50px;
 	&.home{
 		height: 450px;
 	}//header.home
@@ -39,18 +40,24 @@ header.main{
 		}//slogan
 		nav.main{
 			height: 25px;
-			float:right;
+			float:none;
+			text-align: right;
 			ul{
 				margin: 0;
 				padding: 0;
 				list-style: none;
 				height: 25px;
 				li{
-					float:left;
+					display: inline-block;
 					margin: 0;
 					padding: 0;
 					margin-left: 5%;
 					height: 25px;
+					&.active, &:hover{
+						a{
+							text-decoration: underline;
+						}
+					}
 					a{
 						text-decoration: none;
 						color: #fff;
@@ -68,6 +75,7 @@ header.main{
 			width: 100%;
 			height: 20px;
 			padding-top: 50px;
+			margin-bottom: 30px;
 			ul{
 				list-style-type: none;
 				float:right;
@@ -90,10 +98,37 @@ header.main{
 				}
 			}
 		}//nav.lang
-		.slider{
-			width: 100%;
-			clear: both;
-		}
+
 	}//headercontainer
+	.slidercontainer{
+		overflow-y: visible;
+	}//slidercontainer
+	.slider{
+		width: 65%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 60px;
+		position: relative;
+		.text{
+			float:left;
+			width: 50%;
+			p{
+				&:first-of-type{
+					margin-top: 0px;
+				}
+				color: #fff;
+				font-size: 1.3em;
+			}
+		}//text
+		
+		img{
+			width: 50%;
+			float:right;
+			max-height: 304px;
+		}
+		.slide{
+			float:left;
+		}
+	}//slider
 
 }//header.main

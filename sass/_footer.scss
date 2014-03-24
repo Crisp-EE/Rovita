@@ -1,0 +1,17 @@
+footer{
+	text-align: center;
+	font-size: 0.8em;
+	min-height: 100px;
+	clear: both;
+	p{
+		display: inline-block;
+		color: $tumehall;
+		line-height: 100px;
+		margin-left: 5px;
+		margin-right: 5px;
+		&:hover{
+			color:$tumedamhall;
+		}
+		
+	}
+}

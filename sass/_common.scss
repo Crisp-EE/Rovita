@@ -5,6 +5,10 @@ html{
 		margin:0px;
 		padding:0px;
 		font-family: 'source_sans_proregular';
+		color:$tume;
+		a{
+			color: $tumehall;
+		}
 		.group:after {
 		  content: "";
 		  display: table;
@@ -14,7 +18,16 @@ html{
 		.wrapper{
 			width:100%;
 			min-height:100%;
-		}
+			p{
+				font-size: 1.1em;
+				line-height: 1.1;
+			}			
+			section.main{
+				width: 65%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}//wrapper
 	}
 }
 
