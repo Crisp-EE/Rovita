@@ -730,6 +730,12 @@ header.main .slider .text {
   width: 50%;
   height: 304px;
 }
+header.main .slider .text h1 {
+  color: #fff;
+  font-size: 3em;
+  font-family: 'source_sans_probold';
+  font-weight: normal;
+}
 header.main .slider .text p {
   color: #fff;
   font-size: 1.3em;

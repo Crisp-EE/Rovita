@@ -116,6 +116,12 @@ header.main{
 			float:left;
 			width: 50%;
 			height:304px;
+			h1{
+				color: #fff;
+				font-size: 3em;
+				font-family: 'source_sans_probold';
+				font-weight: normal;
+			}
 			p{
 				&:first-of-type{
 					margin-top: 0px;
