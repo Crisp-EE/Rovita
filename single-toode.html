@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title></title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/min/jscript.min.js"></script>
+<script src="js/min/jquery-ui.min.js"></script>
+<script src="js/min/nivo-lightbox.min.js"></script>
+<!-- jquery carousel -->
+<script src="/js/min/carousel.min.js"></script>
+<script src="/js/helper-plugins/jquery.touchSwipe.min.js"></script>
+
+</head>
+<body>
+<div class="wrapper group">
+	<header class="main page group">
+		<div class="headercontainer group">
+			<nav class="lang">
+				<ul>
+					<li><a href="">Est</a></li>
+					<li><a href="">Eng</a></li>
+					<li><a href="">Lv</a></li>
+				</ul>
+			</nav><!-- language choose -->
+			<a href="#homepage" class="logo"></a><!-- logo -->
+			<p class="slogan">Pagari- ja kondiitriseadmed</p><!-- slogan -->
+			<nav class="main">
+				<ul>
+					<li class="active"><a href="">Avaleht</a></li>
+					<li><a href="">Seadmed</a></li>
+					<li><a href="">Referentsid</a></li>
+					<li><a href="">Kontakt</a></li>
+				</ul>
+			</nav><!-- main navigation -->
+		</div><!-- header container  -->
+
+	</header><!-- main header -->
+
+	<section class="main group">
+		<section class="group">
+			<div class="otsi">
+				<input class="button" type="submit">
+				<input class="box" type="text" placeholder="Otsi">
+			</div><!-- otsing -->
+			
+			<header class="block"><h1>Seadmed</h1></header>
+			
+
+			<aside class="filter">
+				<h2>Pakkumised</h2>
+				<ul>
+					<li>
+						<!-- labeli id peab vastama checkboxi id'le ning id ei tohi korduda -->
+						<input type="checkbox" id="eri">  
+						<label for="eri">Eripakkumised</label>
+					</li>
+				</ul>
+
+				<h2>Kategooria</h2>
+				<ul>
+					<li>
+						<input type="checkbox" id="kat1">
+						<label for="kat1">Kategooria</label>
+					</li>
+					<li>
+						<input type="checkbox" id="kat2">
+						<label for="kat2">Kategooria</label>
+					</li>
+					<li>
+						<input type="checkbox" id="kat3">
+						<label for="kat3">Kategooria</label>
+					</li>
+					<li>
+						<input type="checkbox" id="kat4">
+						<label for="kat4">Kategooria</label>
+					</li>
+				</ul>
+
+				<h2>Tootja</h2>
+				<ul>
+					<li>
+						<input type="checkbox" id="toot1">
+						<label for="toot1">Tootjafirma</label>
+					</li>
+					<li>
+						<input type="checkbox" id="toot2">
+						<label for="toot2">Tootjafirma</label>
+					</li>
+					<li>
+						<input type="checkbox" id="toot3">
+						<label for="toot3">Tootjafirma</label>
+					</li>
+					<li>
+						<input type="checkbox" id="toot4">
+						<label for="toot4">Tootjafirma</label>
+					</li>
+				</ul>
+
+				<h2>Valmistatud</h2>
+				<ul>
+					<li>
+						<input type="checkbox" id="val1">
+						<label for="val1">Valmistajamaa</label>
+					</li>
+					<li>
+						<input type="checkbox" id="val2">
+						<label for="val2">Valmistajamaa</label>
+					</li>
+					<li>
+						<input type="checkbox" id="val3">
+						<label for="val3">Valmistajamaa</label>
+					</li>
+					<li>
+						<input type="checkbox" id="val4">
+						<label for="val4">Valmistajamaa</label>
+					</li>
+				</ul>
+
+				<h2>Seisukord</h2>
+				<ul>
+					<li>
+						<input type="checkbox" id="renoveeritud">
+						<label for="renoveeritud">Renoveeritud</label>
+					</li>
+					<li>
+						<input type="checkbox" id="kasutatud">
+						<label for="kasutatud">Kasutatud</label>
+					</li>
+					<li>
+						<input type="checkbox" id="uus">
+						<label for="uus">Uus</label>
+					</li>
+
+				</ul>
+
+				<h2>Staatus</h2>
+				<ul>
+					<li>
+						<input type="checkbox" id="Otsas">
+						<label for="Otsas">Otsas</label>
+					</li>
+					<li>
+						<input type="checkbox" id="Tellimisel">
+						<label for="Tellimisel">Tellimisel</label>
+					</li>
+					<li>
+						<input type="checkbox" id="Laos">
+						<label for="Laos">Laos</label>
+					</li>
+				</ul>
+			</aside><!-- filter -->
+			<section class="product">
+				<a href="" class="back">Tagasi kataloogi</a>
+
+				<div class="images">
+					<a data-lightbox-gallery="gallery1" href="/img/miwe_condo.jpg" style="background-image: url(../img/miwe_condo_thumb.jpg);" class="lightbox first" title="This is an image title">
+					</a>
+
+					<div class="thumbs">
+						<a data-lightbox-gallery="gallery1" href="/img/miwe_condo.jpg" style="background-image: url(../img/miwe_condo_thumb.jpg);" class="lightbox" title="This is an image title">
+						</a>
+
+						<a data-lightbox-gallery="gallery1" href="/img/miwe_condo.jpg" style="background-image: url(../img/miwe_condo_thumb.jpg);" class="lightbox" title="This is an image title">
+						</a>
+
+						<a data-lightbox-gallery="gallery1" href="/img/miwe_condo.jpg" style="background-image: url(../img/miwe_condo_thumb.jpg);" class="lightbox" title="Tdhis is an image title">
+						</a>
+					</div><!-- thumbs -->
+				</div><!-- images -->
+				<article class="description group">
+					<h1>Toote nimi</h1>
+					<div class="status green">Toode on laos</div> <!-- status green-> toode on laos, status yellow -> toode on tellimisel, status red -> toodet pole -->
+					
+					<span>
+						<div class="tag">Seisukord</div>
+						<div class="data">Uus</div>
+					</span>
+
+					<span>
+						<div class="tag">Tüüp</div>
+						<div class="data">Taignarullid</div>
+					</span>
+
+					<span>
+						<div class="tag">Tootja</div>
+						<div class="data">Meie mari</div>
+					</span>
+
+					<span>
+						<div class="tag">Valmistatud</div>
+						<div class="data">Eestis</div>
+					</span>
+					
+				</article><!-- product description-->
+
+				<article class="moreinfo">
+					<header class="block"><h1>Lisainfo</h1></header>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, odit, reiciendis facere tempore nobis voluptatem aut quis dolor dignissimos veniam quisquam id reprehenderit ducimus rem itaque sint quaerat molestiae qui.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam tempore cupiditate quasi et autem atque magnam aspernatur nesciunt tenetur dignissimos.</p>
+				</article><!-- more info -->
+
+				<section class="form group">
+					<header class="block"><h1>Küsige meilt toote kohta</h1></header>
+
+					<div class="error">Sa ei sisestanud telefoninumbrit</div>
+
+					<form class="contactform">
+						<input class="box tel" type="text" placeholder="Telefon">
+						<input class="box name" type="text" placeholder="Nimi">
+						<input class="box email" type="text" placeholder="E-mail">
+						<textarea placeholder="Kirjuta meile"  name="" id="content"></textarea>
+						<input class="button" type="submit" value="Saada">
+					</form>
+				</section><!-- contactform-->
+			</section><!-- product -->
+		</section><!--seade -->
+		
+		<footer>
+			<p>OÜ Rovita</p>
+			<p>Ravila 51F 51014 Tartu</p>
+			<p>Bürooo: +372 744 7777</p>
+			<p>Faks: +372 744 7766</p>
+			<p>Mob: +372 505 1882</p>
+			<p>E-post: <a href="mailto:rovita@rovita.ee">rovita@rovita.ee</a></p>
+			<p>E-R: 8.30-17.00</p>
+		</footer><!-- footer -->
+	</section><!--main section -->
+
+</div><!--wrapper-->
+</body>
+</html>

@@ -26,6 +26,7 @@ html{
 				width: 65%;
 				margin-left: auto;
 				margin-right: auto;
+				
 
 			}
 
@@ -60,6 +61,14 @@ html{
 				}
 				
 			}//otsi
+
+			.error{
+				color: $punane;
+				font-family: 'source_sans_prosemibold';
+				font-size: 0.9em;
+				padding-bottom: 5px;
+				padding-top: 5px;
+			}
 			
 		}//wrapper
 	}

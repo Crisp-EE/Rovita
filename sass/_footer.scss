@@ -3,6 +3,8 @@ footer{
 	font-size: 0.8em;
 	min-height: 100px;
 	clear: both;
+	border-top: solid 1px $hall;
+	margin-top: 20px;
 	p{
 		display: inline-block;
 		color: $tumehall;
