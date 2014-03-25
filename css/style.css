@@ -554,6 +554,20 @@ section.main section.special .specialcontainer a.offer {
   -o-transition: all 200ms ease-in;
   transition: all 200ms ease-in;
 }
+section.main section.special .specialcontainer a.offer.fewItems article.offer {
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+section.main section.special .specialcontainer a.offer.fewItems p {
+  width: 46%;
+  height: 140px;
+  float: right;
+  color: #363636;
+  font-size: 1em;
+  padding: 1%;
+  overflow: hidden;
+}
 section.main section.special .specialcontainer a.offer:hover {
   opacity: 1;
 }
