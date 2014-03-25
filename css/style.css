@@ -785,7 +785,17 @@ section.categories .category {
   position: relative;
   opacity: 0.8;
   background-size: cover;
-  background-position: top center;
+  background-position: center center;
+}
+section.categories .category.lightbox {
+  border: none;
+}
+section.categories .category.ref .logo {
+  margin-bottom: 40px;
+  background-size: contain;
+  background-position: center center;
+  height: 140px;
+  background-repeat: no-repeat;
 }
 section.categories .category:hover {
   opacity: 1;
