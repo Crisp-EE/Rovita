@@ -1007,11 +1007,14 @@ table.products tr {
   height: 100px;
 }
 table.products tr.header {
-  color: #9b9b9b;
-  text-decoration: underline;
   border-bottom: solid 1px #9b9b9b;
   height: 40px;
   vertical-align: top;
+  color: #9b9b9b;
+}
+table.products tr.header a {
+  color: #9b9b9b;
+  text-decoration: underline;
 }
 table.products tr.header td.tableName {
   text-transform: uppercase;

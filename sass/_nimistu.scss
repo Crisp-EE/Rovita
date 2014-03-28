@@ -63,11 +63,13 @@ table.products{
 	tr{
 		height: 100px;
 		&.header{
-			color:$tumehall;
-			text-decoration: underline;
 			border-bottom: solid 1px $tumehall;
-			height: 40px;
-			vertical-align: top;
+			height: 40px;vertical-align: top;
+			a{
+				color:$tumehall;
+				text-decoration: underline;
+			}
+			color:$tumehall;
 			td.tableName{
 				text-transform: uppercase;
 				text-decoration: none !important;
