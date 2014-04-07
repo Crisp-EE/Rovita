@@ -636,7 +636,7 @@ section.main section.special .specialcontainer a.offer article.offer h1 {
 header.main {
   height: 160px;
   width: 100%;
-  background-image: url("../img/head-bg.jpg");
+  background-image: url("../img/head-bg.png");
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -763,7 +763,7 @@ header.main .slider .text p:first-of-type {
   margin-top: 0px;
 }
 header.main .slider img {
-  width: 50%;
+  width: auto;
   float: right;
   max-height: 304px;
 }
