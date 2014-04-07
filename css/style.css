@@ -764,7 +764,7 @@ header.main .slider .text p {
   color: #fff;
   font-family: 'source_sans_prosemibold';
   font-size: 2.2em;
-  line-height: 1.25;
+  line-height: 1.2;
 }
 header.main .slider .text p:first-of-type {
   margin-top: 0px;
@@ -773,6 +773,7 @@ header.main .slider img {
   width: auto;
   float: right;
   max-height: 304px;
+  padding-right: 40px;
 }
 header.main .slider .slide {
   float: left;
