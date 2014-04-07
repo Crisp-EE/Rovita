@@ -136,11 +136,14 @@ header.main{
 			}
 		}//text
 		
-		img{
-			width: auto;
+		.img{
+			width: 50%;
 			float:right;
-			max-height: 304px;
-			padding-right: 40px;
+			height: 304px;
+			background-repeat: no-repeat;
+			background-position: center top;
+			-webkit-background-size: contain;
+			background-size: contain;
 		}
 		.slide{
 			float:left;

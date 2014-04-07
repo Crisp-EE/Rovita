@@ -769,11 +769,14 @@ header.main .slider .text p {
 header.main .slider .text p:first-of-type {
   margin-top: 0px;
 }
-header.main .slider img {
-  width: auto;
+header.main .slider .img {
+  width: 50%;
   float: right;
-  max-height: 304px;
-  padding-right: 40px;
+  height: 304px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  -webkit-background-size: contain;
+  background-size: contain;
 }
 header.main .slider .slide {
   float: left;
