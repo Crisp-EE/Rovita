@@ -636,9 +636,9 @@ section.main section.special .specialcontainer a.offer article.offer h1 {
 header.main {
   height: 160px;
   width: 100%;
-  background-image: url("../img/head-bg.png");
+  background-image: url("../img/head-bg.jpg");
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top center;
   -webkit-background-size: cover;
   background-size: cover;
   margin-bottom: 50px;
