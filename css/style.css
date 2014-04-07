@@ -751,6 +751,7 @@ header.main .slider {
 header.main .slider .text {
   float: left;
   width: 50%;
+  height: 304px;
 }
 header.main .slider .text h1 {
   color: #fff;
