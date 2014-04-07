@@ -4,6 +4,7 @@ section.main{
 		float:left;
 		border-right: solid 1px $hall;
 		padding-right: 4%;
+		margin-bottom: 20px;
 	}//hometext
 	a.button{
 		float:right;
@@ -16,6 +17,9 @@ section.main{
 		-webkit-border-radius: 5px;
 		-moz-border-radius: 5px;
 		border-radius: 5px;
+		&:hover{
+			background-color: #4C4C4C;
+		}
 		width: 30%;
 		text-align: center;
 		margin-top: 20px;
